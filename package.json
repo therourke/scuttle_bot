@@ -1,0 +1,16 @@
+{
+  "name": "scuttlebutt-bot",
+  "version": "1.0.0",
+  "description": "A silly, early-2010s-style Bluesky bot that remixes a text corpus into nonsense posts.",
+  "main": "src/post.js",
+  "type": "commonjs",
+  "scripts": {
+    "build-corpus": "node scripts/build-corpus.js",
+    "post": "node src/post.js",
+    "dry-run": "node src/post.js --dry-run"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@atproto/api": "^0.13.0"
+  }
+}

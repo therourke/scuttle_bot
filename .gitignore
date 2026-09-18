@@ -1,0 +1,27 @@
+# This folder is a shared Obsidian vault / corpus-texts folder, not a
+# dedicated repo - it holds source books, a PDF, and (deliberately)
+# an Anarchist Cookbook folder that must never be pushed anywhere.
+# So: ignore everything by default, and only track the bot's own
+# code/config. New files dropped into this folder (more corpus texts,
+# vault notes, etc.) are excluded automatically unless added below.
+*
+
+!.gitignore
+!README.md
+!package.json
+!package-lock.json
+!.env.example
+
+!scripts
+!scripts/*
+
+!src
+!src/*
+
+!.github
+!.github/*
+!.github/workflows
+!.github/workflows/*
+
+!data
+!data/*
